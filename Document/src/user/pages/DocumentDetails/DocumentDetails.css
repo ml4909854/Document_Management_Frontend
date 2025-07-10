@@ -1,0 +1,46 @@
+.document-detail-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.document-detail-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.document-detail-container p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.doc-meta {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}

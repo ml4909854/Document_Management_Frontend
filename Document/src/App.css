@@ -1,0 +1,14 @@
+.error-text {
+  color: red;
+  margin: 10px 0;
+}
+
+.success-text {
+  color: green;
+  margin: 10px 0;
+}
+
+button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

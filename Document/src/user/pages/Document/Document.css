@@ -1,0 +1,142 @@
+/* Layout */
+.document-container {
+  padding: 3rem 1.5rem;
+  background: linear-gradient(to right, #f9fafb, #f1f5f9);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.document-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px #cbd5e1;
+}
+
+/* Search Bar */
+.search-input {
+  display: block;
+  margin: 0 auto 2.5rem auto;
+  padding: 12px 18px;
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+/* Document Grid */
+.document-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* Card Styles */
+.document-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.8rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 5px solid #3b82f6;
+}
+
+.document-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(30, 41, 59, 0.12);
+}
+
+/* Title */
+.doc-title {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+/* Link Styling */
+.doc-title-link {
+  text-decoration: none;
+  color: #1d4ed8;
+}
+
+.doc-title-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Content */
+.doc-content {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 80px;
+}
+
+/* Meta Info */
+.doc-meta {
+  font-size: 0.85rem;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: auto;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 0.8rem;
+}
+
+/* Empty States & Loading */
+.loading-text,
+.no-docs {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #64748b;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .document-container {
+    padding: 2rem 1rem;
+  }
+
+  .doc-title {
+    font-size: 1.25rem;
+  }
+
+  .doc-content {
+    font-size: 0.95rem;
+  }
+}
+.share-link {
+  font-size: 0.75rem;
+  margin-top: 8px;
+  color: #334155;
+  word-break: break-word;
+}
+.share-link code {
+  background-color: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
