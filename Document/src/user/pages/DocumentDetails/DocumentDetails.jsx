@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import Spinner from "../../components/Spinner/Spinner";
-import "./documentDetails.css";
+import "./DocumentDetails.css";
 
 const DocumentDetails = () => {
   const { id } = useParams();

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import "./login.css";
+import "./Login.css";
 import { useEffect } from "react";
 import Spinner from "../../components/Spinner/Spinner";
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
-import "./mydocument.css";
+import "./MyDocument.css";
 import Spinner from "../../components/Spinner/Spinner";
 
 const MyDocument = () => {

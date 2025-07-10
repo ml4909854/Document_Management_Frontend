@@ -1,6 +1,6 @@
 import React, { useState , useEffect } from "react";
 import axios from "axios";
-import "./createdocument.css";
+import "./Createdocument.css";
 import Spinner from "../../components/Spinner/Spinner";
 import { useNavigate } from "react-router-dom";
 

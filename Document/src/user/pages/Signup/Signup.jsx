@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import "./signup.css";
+import "./Signup.css";
 import Spinner from "../../components/Spinner/Spinner";
 
 const Signup = () => {
